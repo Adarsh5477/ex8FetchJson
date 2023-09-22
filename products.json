@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Smartphone",
+        "description": "A high-end smartphone with a powerful camera and fast processor.",
+        "price": 699.99,
+        "image": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg"
+    },
+    {
+        "name": "Laptop",
+        "description": "A lightweight and portable laptop for work and entertainment.",
+        "price": 999.99,
+        "image": "https://cdn.thewirecutter.com/wp-content/media/2023/06/bestlaptops-2048px-9765.jpg"
+    },
+    {
+        "name": "Smartwatch",
+        "description": "A smartwatch with fitness tracking and notifications.",
+        "price": 199.99,
+        "image": "https://m.media-amazon.com/images/I/515BNisImJL.jpg"
+    },
+    {
+        "name": "Headphones",
+        "description": "Wireless over-ear headphones with noise-cancellation.",
+        "price": 249.99,
+        "image": "https://images.philips.com/is/image/PhilipsConsumer/TASH402BL_00-IMS-en_PK?$jpglarge$&wid=1250"
+    },
+    {
+        "name": "Digital Camera",
+        "description": "A professional-grade digital camera with interchangeable lenses.",
+        "price": 1299.99,
+        "image": "https://t3.ftcdn.net/jpg/00/79/36/04/360_F_79360425_13tH0FGR7nYTNlXWKOWtLmzk7BAikO1b.jpg"
+    }
+]

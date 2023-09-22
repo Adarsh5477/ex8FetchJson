@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#sortBy {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Adjust the product list to display 3 products in a row */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+/* Make each product card smaller */
+.product {
+    flex-basis: calc(33.33% - 10px);
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style the product name with a smaller font size */
+.product h2 {
+    font-size: 14px;
+}
+
+/* Style the product description with a smaller font size */
+.product p {
+    font-size: 12px;
+}
+
+/* Style the product price */
+.product p:last-child {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Style the select box */
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the button */
+button {
+    cursor: pointer;
+}
+
+img{
+    height:100px;
+    width:100px;
+}
+/* Add styles for responsiveness if needed */
+@media screen and (max-width: 768px) {
+    .product {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product {
+        flex-basis: 100%;
+    }
+}

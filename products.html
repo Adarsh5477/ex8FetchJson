@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+
+    <title>Product Catalog</title>
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search products...">
+        <button id="searchButton">Search</button>
+        <label for="sortBy">Sort by:</label>
+        <select id="sortBy">
+            <option value="name">Name</option>
+            <option value="price">Price</option>
+        </select>
+    </div>
+    <div class="product-list" id="productList"></div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
